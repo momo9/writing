@@ -1,0 +1,172 @@
+#+TITLE: Be A Hacker
+#+AUTHOR: 卷摸
+
+#+Style: <link rel="stylesheet" href="org.css">
+
+[[http://momo9.me/wp/wp-content/uploads/2014/12/gnu.jpg]]
+
+本文的作者是 *深深爱着人类* 的【我】。
+
+本文根据 2014 年 12 月 11 日晚上讲的内容整理。
+
+我建立了个人网站【momo9.me】，大家多去我那看看吧。点击『阅读原文』链接或者访问 [[http://momo9.me/wp/?p=191]] 可以访问这篇文章的 *blog 版本，* blog 版里 *所有的资料或是书籍都有给出链接* （微信公众号不能有超链接呢……）。
+
+-----
+
+在自己找工作的过程中，受到了很多前人的指点，因此自己也一直有意在找到工作以后，写点总结的东西，希望能够帮到之后找工作的人。不过，最后自己只是拿到了一个批发价 offer，所以也不好意思总结什么了……
+
+因此，收到邀请去讲讲我这段找工作的经历的时候，感到有些受宠若惊。11 日晚上讲了以后，回来发现各位听众几乎都加了我的公众号，实在是感到非常感谢。这边我把那天讲的内容整理在这里，并把一些资料的超链接给出来，方便大家查找。
+
+另外，今天发现没有把画板带出来，就偷个懒，把 [[http://www.gnu.org/][GNU]] 的标志给截过来了。
+
+* 适合与不适合
+
+- 谁适合这个 presentation？
+
+  - 有志于互联网技术类岗位
+
+    这里有两个关键词，一个是 *互联网，* 一个是 *技术岗。* 这个职业只是我个人的一个选择，大家还是要根据自己的个人兴趣与天赋来选择。这世上的职业是多种多样的，并没有什么好坏之分，只是合适不合适罢了。选择互联网，一方面是选择了一种不太稳定的辛苦生活，另一方面也是选择了无限的可能性以及相对宽松的企业文化。而选择技术岗，对于不感兴趣的人来说是一条寂寞而辛苦的道路，对于热爱技术的人则将是一段乐在其中的旅程。
+
+  - 下定决心持续学习新知识
+
+    作为程序员需要不断学习新知识，这一方面很辛苦，另一方面则意味着可以不断接触新东西，充满了新鲜感。
+
+  - 非软件、计算机专业
+
+    作为通信/电信的同学，和软件、计算机同学的知识体系有不同。我本人是通信专业，我的经验对于通信/电信的同学更有参考意义一些。
+
+- 谁不适合这个 presentation
+
+  - 各路大神
+
+    ACM 大神、开源社区大牛就不要看了，只有我膜拜你的份。
+
+  - 喜欢安安稳稳的生活
+
+    安稳未必不是好的选择，但互联网行业真的没有你需要的东西。
+
+  - 有志于其它行业的技术类岗位：金融、微电子等
+
+    行业不同，即使都是技术岗，也没有太大的借鉴意义。
+
+  - 有志于互联网的其它职位：产品、市场等
+
+    同上一条，如果不是技术岗位，参考意义也不大。
+
+* 技术岗位有哪些？
+
+个人总结，欢迎拍砖。
+
+[[http://momo9.me/wp/wp-content/uploads/2014/12/programmer.png]]
+
+** [[https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html#//apple_ref/doc/uid/TP40011210-CH1-SW1][iOS]]、Android、[[http://www.w3school.com.cn/][前端]]、其它客户端
+
+安卓我就不给链接了，它们公司的网站上不了……
+
+想做这方面工作的话，自己动手准备比较容易，因为都是大家能接触到的东西。另外，现在对 /其它客户端/ 的需求应该比较少了……
+
+** 测试
+
+按照开发一样准备就可以。
+
+** 后端
+
+处理业务逻辑。涉及的通信/电信不接触的背景知识比较多。真对这块感兴趣，[[http://php.net/manual/en/getting-started.php][php]]、[[http://docs.oracle.com/javaee/6/tutorial/doc/docinfo.html][j2ee]]、[[https://docs.djangoproject.com/en/1.7/intro/][python]]、[[http://guides.rubyonrails.org/getting_started.html][ruby]]、[[http://nodejs.org/documentation/tutorials/][jode.js]] 什么的会一种就 ok。
+
+** 运维
+
+主要是 [[http://vbird.dic.ksu.edu.tw/linux_basic/linux_basic.php][*nix]] 要用的熟，会写 shell 等脚本。比较辛苦，on call，有时候晚上工作。
+
+** 基础服务
+
+对计算机要比较了解。
+
+** 算法服务
+
+主要是算法，对软件、计算机的背景知识不需要太了解。 *挺适合通信/电信的同学的。*
+
+** 数据库
+
+主要是 [[http://dev.mysql.com/doc/refman/5.6/en/tutorial.html][sql]] 要熟。比较辛苦，on call，有时候晚上工作。
+
+* 准备：算法题（最重要）
+
+- 全真教：[[http://book.douban.com/subject/1885170/][CLRS]]、[[http://book.douban.com/subject/3425827/][DPV]]、[[http://book.douban.com/subject/2035809/][KT]]、[[http://book.douban.com/subject/4048566/][ADM]]
+  - 选一本就好
+  - 厚，读起来容易烦
+  - 效果不是立竿见影的，有些知识没法在面试中考察
+  - *一定要做习题*
+- 白驼山：[[https://oj.leetcode.com/problems/][LeetCode]]、[[http://book.douban.com/subject/2348812/][PIE]]、[[http://book.douban.com/subject/25753386/][CTCI]]、[[http://book.douban.com/subject/6966465/][剑指 offer]]
+  - 真正会考的题
+  - 像考试一样准备
+  - *手写*
+  - *做不出来、写不完没关系，把思路讲明白*
+
+- 桃花岛：[[http://book.douban.com/subject/3227098/][编程珠玑]]
+
+  编程珠玑里介绍一些很 /聪明/ 的解决问题的办法。
+
+* 准备：语言
+
+- 深入一两种，多学几种，了解各种不同的思想，而且学语言比较有趣
+- 必修
+  - c：精通，对于了解底层原理非常重要，推荐教材 [[http://book.douban.com/subject/1139336/][k&r]]
+- 强烈推荐
+  - [[http://docs.oracle.com/javase/tutorial/index.html][java]]：了解，职位很多，有助于养成好习惯
+  - [[https://docs.python.org/2/tutorial/][python]]：了解，简单，提高生活品质
+  - [[http://daringfireball.net/projects/markdown/][markdown]]：写文档，妈妈再也不用担心我设置格式的问题啦
+- 选修：有时间可以看看
+  - [[http://www.gnu.org/software/bash/manual/html_node/index.html][shell]]：将 *nix 下的工作自动化
+  - [[http://www.w3school.com.cn/][HTML、CSS]]：写博客，做个小应用都会用到
+  - c++：大家都有基础，不过太难精通了，推荐教材：[[http://book.douban.com/subject/25708312/][C++ Primer]]、[[http://book.douban.com/subject/1842426/][Effective C++]]
+  - [[https://www.haskell.org/haskellwiki/Tutorials][haskell]]：函数式编程
+
+* 准备：基础知识
+
+- 最好是能结合自己的背景知识
+- 必修
+  - 网络：TCP/IP、HTTP、七层模型、网站是如何工作的、编程实践（[[http://book.douban.com/subject/1500149/][UNP]]）
+  - *nix：基本使用（[[http://vbird.dic.ksu.edu.tw/linux_basic/linux_basic.php][鸟哥的 Linux 私房菜]]）、*nix 环境下的编程与概念（[[http://book.douban.com/subject/1788421/][APUE]]）
+  - 数据库：基本的 SQL（[[http://book.douban.com/subject/24250054/][SQL 必知必会]]）
+- 选修：了解些基本概念，锦上添花
+  - 操作系统
+  - 数据挖掘
+  - 分布式
+  - 机器学习
+  - 搜索算法
+
+* 准备：实习与开源项目
+
+- 实习
+  - 有实习是最好的
+  - 了解真正的程序员是如何开发的：代码管理、应用部署
+  - 能够转正的话，会减轻不少压力
+  - 入行前最后确认，这条路到底是不是适合自己
+- 开源项目
+  - 目的与实习类似，但并不是那么容易参与
+  - 了解工程师文化
+  - 有一定的可能性带来工作机会
+
+* 个人的经验与教训
+
+- 深度比广度重要
+- 校招和考试一样，需要大量的时间准备
+- 各家的校招都差不多，笔经面经挺靠谱
+- 别灰心丧气，运气成分很大
+- 最好是能在正式校招之前解决战斗……
+
+* 以后的路
+
+- 我们和北大青鸟有区别么？
+  - 大厨与切菜
+
+    大厨在成为大厨之前，总是要从切菜开始，切很多年的菜。同样，刚刚成为程序员的时候，我们总是要干很多主要是耗费体力的杂活。这时我们和北大青鸟的同学没有区别，甚至在有些技术的使用上，我们还没有他们熟练。
+
+    切菜不会让一个学徒变为大厨，学徒唯有在切菜之余，不断偷师，才能逐渐成为大厨。同样，编程工作中的杂活给我们带来的增益是非常有限的，要注意在工作之余多学习杂活以外的东西，多思考架构，才能逐渐承担一些更高层次的任务，否则和北大青鸟的同学，没有区别。
+
+  - Be a hacker：[[http://zh.wikipedia.org/zh-cn/%E8%82%AF%C2%B7%E6%B1%A4%E6%99%AE%E9%80%8A][Thompson]] & [[http://zh.wikipedia.org/zh-cn/%E4%B8%B9%E5%B0%BC%E6%96%AF%C2%B7%E9%87%8C%E5%A5%87][Ritchie]]、[[http://zh.wikipedia.org/zh-cn/%E7%90%86%E6%9F%A5%E5%BE%B7%C2%B7%E6%96%AF%E6%89%98%E6%9B%BC][RMS]]、[[http://zh.wikipedia.org/wiki/%E6%9E%97%E7%BA%B3%E6%96%AF%C2%B7%E6%89%98%E7%93%A6%E5%85%B9][Linus]]、[[http://en.wikipedia.org/wiki/Doug_Cutting][Doug Cutting]]
+
+    正是 *黑客精神* 让我们在技术这条有些辛苦的道路上走下去，改变世界。
+
+    - 自己动手改变世界
+    - 不将就
