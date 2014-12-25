@@ -30,6 +30,10 @@ pre, code {
   font-family: Consolas, Inconsolata, Courier, '微软雅黑', monospace;
 }
 
+tbody {
+  font-size: 1em;
+}
+
 code {
   margin: 0 0.15em;
   padding: 0 0.3em;

@@ -71,7 +71,7 @@ our syntax highlighting. */
 p {
   /* !important is needed here because Hotmail/Outlook.com uses !important to
      kill the margin in <p>. We need this to win. */
-  margin: 1.2em 0 !important;
+  margin: 1.2em 0;
 }
 
 table, pre, dl, blockquote, q, ul, ol {
@@ -115,10 +115,15 @@ dl dd {
 }
 
 blockquote, q {
-  border-left: 4px solid #DDD;
-  padding: 0 1em;
-  color: #777;
+  border-left: 4px solid maroon;
+  padding: 0.5em 0 0.5em 1em;
+  color: maroon;
   quotes: none;
+  background-color: #F4F4F4;
+}
+
+blockquote p {
+  margin: 0 0 0 0;
 }
 
 blockquote::before, blockquote::after, q::before, q::after {
@@ -216,11 +221,21 @@ ul {
 }
 
 #table-of-contents {
-  visibility: hidden;
-  float: right;
+  display: none;
 }
 
 #postamble {
-  visibility: hidden;
+  display: none;
 }
 
+.section-number-2 {
+  display: none;
+}
+
+img {
+  max-height: 400px;
+}
+
+.title {
+  display: none;
+}
