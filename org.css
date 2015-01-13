@@ -80,7 +80,7 @@ table, pre, dl, blockquote, q, ul, ol {
 
 ul, ol {
   padding-left: 2em;
-  margin-left: 1em;
+  margin-left: 0;
 }
 
 li {
@@ -211,7 +211,7 @@ table tr th {
 }
 
 ul {
-  list-style: inherit;
+  /* list-style: inherit; */
   word-wrap: break-word; 
   word-break: normal; 
 }
@@ -228,7 +228,7 @@ ul {
   display: none;
 }
 
-.section-number-2 {
+.section-number-2, .section-number-3, .section-number-4 {
   display: none;
 }
 
