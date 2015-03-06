@@ -1,0 +1,18 @@
+#+TITLE: 【STL】map & hash_map
+#+AUTHOR: 卷摸
+
+#+Style: <link rel="stylesheet" href="../org.css">
+#+options: ^:nil
+
+本文的作者是 *深深爱着人类* 的【我】。
+
+这篇文章说说 C++ 标准模板库 STL 中的两种“智能”数组：vector 与 deque。
+
+我建立了个人网站【momo9.me】，大家多去我那看看吧。点击『阅读原文』可以访问哈~
+
+-----
+
+#+begin_quote
+《STL 源码剖析》 侯捷
+#+end_quote
+
