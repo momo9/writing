@@ -6,3 +6,6 @@ others/
 temp.*
 *.html
 *.PIX
+
+.DS_Store
+_book/
