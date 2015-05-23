@@ -6,3 +6,7 @@ others/
 temp.*
 *.html
 *.PIX
+*.xmind
+
+.DS_Store
+_book/
